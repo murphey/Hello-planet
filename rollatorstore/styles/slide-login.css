@@ -1,0 +1,94 @@
+		/*standaart reset*/
+		* { margin: 0; padding: 0;} 
+
+
+		
+
+		/*voor de inputveld*/
+		.input { padding: 4px;} 
+		
+		#login-wrap {
+			/*absoluut links-boven, anders verschuift de boel*/
+			position: relative; 
+			/*positie van absolute*/
+			top: -4px; left: 674px;
+			width: 260px;
+			background: #fff;
+		}
+		.value{
+		background:red;
+		}
+		.submits
+		{			
+		background-color:#8299AD;
+		border-radius:4px;
+		border: solid 1px #159ff7;
+		color:#d8dbdd;
+		cursor:pointer;
+ 		}
+		
+		.test a {
+			/*voor de klik area*/
+			display: block; 
+		}
+		
+		#uitklappen { /*Dit is een uitklap div*/
+			/*even verbergen voor jQuery*/
+			display: none; 
+		}
+		#uitklappen div {
+			padding: 15px; 
+			background-color:#fff;
+			border-radius:0 0 5px 5px;
+			border:solid 3px #8299AD;
+			/*staat hier omdat anders de animatie verspringt!*/
+			}
+			
+					/*standaart reset*/
+		* { margin: 0; padding: 0;} 
+
+
+		
+
+		/*voor de inputveld*/
+		.input1 { padding: 4px;} 
+		
+		#login-wrap1 {
+			/*absoluut links-boven, anders verschuift de boel*/
+			position: relative; 
+			/*positie van absolute*/
+			top: -25px; left: 674px;
+			width: 260px;
+			background: #fff;
+						background-color: #ff0000;
+
+		}
+		.value1{
+		background:red;
+		}
+		.submits1
+		{			
+		background-color:#8299AD;
+		border-radius:4px;
+		border: solid 1px #159ff7;
+		color:#d8dbdd;
+		cursor:pointer;
+ 		}
+		
+		.test1 aa {
+			/*voor de klik area*/
+			display: block; 
+		}
+		
+		#uitklappen1 { /*Dit is een uitklap div*/
+			/*even verbergen voor jQuery*/
+			display: none; 
+		}
+		#uitklappen1 div {
+			padding: 15px; 
+			background-color:#fff;
+			border-radius:0 0 5px 5px;
+			border:solid 3px #8299AD;
+			/*staat hier omdat anders de animatie verspringt!*/
+			}
+			aa{cursor:pointer;}

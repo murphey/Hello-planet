@@ -1,0 +1,544 @@
+@font-face {
+    font-family: 'BreuerTextRegular';
+    src: url('breuertext-regular-webfont.eot');
+    src: url('breuertext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('breuertext-regular-webfont.woff') format('woff'),
+         url('breuertext-regular-webfont.ttf') format('truetype'),
+         url('breuertext-regular-webfont.svg#BreuerTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BreuerTextBold';
+    src: url('breuertext-bold2-webfont.eot');
+    src: url('breuertext-bold2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('breuertext-bold2-webfont.woff') format('woff'),
+         url('breuertext-bold2-webfont.ttf') format('truetype'),
+         url('breuertext-bold2-webfont.svg#BreuerTextBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background:#fff8e4;
+	background-image:url('../images/bg.jpg');
+	background-repeat:repeat-x;
+	font-family:Calibri;
+}
+
+p{
+	font-style:normal;
+	color:#484848;
+	font-size:15px;
+}
+
+header{
+	max-width:1000px;
+	position:relative;
+	margin-bottom:10px;
+}
+
+nav{
+	background:url('../images/menu_bg1.png');
+	height:38px;
+	width:542px;
+	float:left;
+}
+
+aside{
+	width:150px;
+	float:right
+}
+
+table, th, td{
+	border:0px;
+	width:350px;
+	margin-top:-70px;
+	margin-right:-120px;
+	text-align:right;
+}
+
+	
+	
+a#home:hover{
+	background:url(images/menu/home_hover.png);
+	background-repeat:no-repeat;
+	text-decoration:none;color:#000000;
+}
+
+
+#wrapper{
+	margin:0px auto 0px auto;
+	width:941px;
+}
+
+#logo{
+	float:left;
+}
+
+#nav{
+	height:38px;
+	max-width:542px;
+	height:38px;
+	float:left;
+	margin-right:500px;
+	margin-top:30px;
+}
+
+#button_winkelmandje{
+	float:left;
+	
+	height:38px;
+	width:352px;
+}
+
+#dddbutton_winkelmandje{
+	float:right;
+	margin-top:3px;
+	margin-left:45px;
+	height:38px;
+	width:352px;
+}
+
+#winkelmandje{
+	float:right;
+	width:353px;
+}
+
+#winkelmandje_box{
+	width:303px;
+	float:left;
+	position:absolute;
+}
+
+#button_bekijkproducten{
+	margin-top:0px;
+	float:left;
+}
+
+#button_afrekenen{
+	float:right;
+	margin-right:75px;
+}
+
+#line{
+	width:120px;
+	height:1px;
+	margin-top:-35px;
+	margin-left:250px;
+	margin-bottom:100px;
+}
+
+.text_winkelmandje{
+	color:#919191;
+	font-size:14px;
+	float:left;
+}
+
+.text_winkelmandje_proces{
+	color:#919191;
+	font-size:14px;
+}
+
+#bedragen{
+	margin-top:75px;
+	float:right;
+	width:450px;
+	margin-left:10px;
+}
+
+.text_table{
+	color:#919191;
+	font-size:15px;
+}
+
+.text_table_totaal{
+	color:#46839d;
+	font-size:16px;
+}
+
+#bestelling{
+	width:188px;
+	height:31px;
+	margin-left:1px;
+	margin-top:5px;
+}
+
+#verder_winkelen{
+	width:158px;
+	height:31px;
+}
+
+#formulier_uwgegevens{
+	margin-left:150px;
+	margin-top:-75px;
+}
+
+
+.rechts{
+	margin-top:7px;
+	margin-left:7px;
+}
+
+form.rechts{
+	margin-right:10px;
+	width:252px;
+}
+
+.terug_link{
+	max-width:542px;
+}
+
+a.terug_link{
+	color:#003d86;
+	text-decoration:none;
+}
+
+a.terug_link:hover{
+	color:#46839d;
+}
+	
+
+#winkelmandje_afbeelding{
+	background:url('../images/winkelmandje/winkelmandje.png');
+	width:53px;
+	height:62px;
+	float:right;
+}
+
+#zoekbalk{
+	background:url('../images/zoek_bg.png');
+	float:right;
+	margin-left:45px;
+	height:38px;
+	width:352px;
+}
+
+#attention{
+	margin-top:20px;
+	float:left;
+	background:url('../images/attention.png');
+	width:542px;
+	height:246px;
+}
+
+#button_attention{
+	margin:150px 80px 10px 19px;
+}
+
+#interest{
+	margin-top:20px;
+	background:url('../images/interest1.png');
+	float:right;
+	width:356px;
+	height:244px;
+}
+
+#uwvoordeel{
+	background:url('../images/uwvoordeel.png');
+	margin:25px auto 10px auto;
+	width:188px;
+	height:27px;
+}
+
+#ideal{
+	background:url('../images/ideals.png');
+	width:32px;
+	height:28px;
+	margin-top:25px;
+	margin-left:65px;
+}
+
+#ideal_tekst{
+	color:#919191;
+	font-size:14px;
+	margin-top:24px;
+	margin-left:52px;
+	width:171px;
+	height:30px;
+}
+
+#break_interest_1{
+	background:url('../images/break.png');
+	margin:15px auto 0px auto;
+	width:257px;
+	height:5px;
+}
+
+#clock{
+	background:url('../images/clock.png');
+	width:32px;
+	height:32px;
+	margin-top:9px;
+	margin-left:65px;
+}
+
+#clock_tekst{
+	color:#919191;
+	font-size:14px;
+	margin-top:9px;
+	margin-left:52px;
+	width:171px;
+	height:30px;
+}
+
+#break_interest_2{
+	background:url('../images/break.png');
+	margin:12px auto 0px auto;
+	width:257px;
+	height:5px;
+}
+
+#vinkje{
+	background:url('../images/vinkje.png');
+	width:38px;
+	height:29px;
+	margin-top:10px;
+	margin-left:65px;
+}
+
+#vinkje_tekst{
+	color:#919191;
+	font-size:14px;
+	margin-top:15px;
+	margin-left:52px;
+	width:171px;
+	height:30px;
+}
+
+#content{
+	float:left;
+	width:542px;
+	
+}
+
+#product_info{
+	margin-left:15px;
+	margin-top:2px;
+	float:left;
+	width:300px;
+	text-align:justify;
+}
+
+#article{
+	width:512px;
+	text-align:justify;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+h2{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#003d86;
+}
+
+h3{
+	margin-bottom:0px;
+	color:#46839d;
+	margin-top:0px;
+}
+
+.bold{
+	color:#46839d;
+}
+
+.text_product{
+	color:#484848;
+	font-size:15px;
+	float:left;
+	margin-top:0px;
+	text-align:justify;
+}
+
+
+#title{
+	background:url('../images/text/rollzmotion_text.png');
+	width:117px;
+	height:17px;
+	margin-top:12px;
+	margin-bottom:2px;
+}
+
+
+#product_foto{
+	background:url('../images/producten/rollz_motion2.png');
+	width:191px;
+	height:139px;
+
+}
+
+#product_foto_activerollator{
+	background:url('../images/producten/active_rollator2.png');
+	width:191px;
+	height:139px;
+}
+
+#product_foto_activelight{
+	background:url('../images/producten/active_light2.png');
+	width:191px;
+	height:139px;
+}
+
+#button_toevoegen_winkelmandje{
+	background:url('../images/buttons/toevoegen_winkelmandje.png');
+	margin-top:10px;
+	width:191px;
+	height:31px;
+}
+
+
+#product_info_index{
+	float:left;
+	margin-left:15px;
+	width:490px;
+	height:207px
+}
+
+#producten{
+	margin-top:19px;
+	float:left;
+	width:535px;
+	margin-right:43px;
+}
+
+.10{
+	color:#919191;
+	font-size:9px;
+}
+
+#product_1{
+	background:url('../images/producten/rollz_motion.png');
+	margin-top:2px;
+	float:left;
+	width:266px;
+	height:207px;
+}
+
+#text_nieuwe_product{
+	background:url('../images/text/nieuwe_product.png');
+	margin:20px auto 0px auto;
+	width:152px;
+	height:20px;
+}
+
+#product_2{
+	background:url('../images/producten/active_rollator.png');
+	margin-top:2px;
+	float:right;
+	width:266px;
+	height:207px;
+}
+
+#text_meeste_verkochte_producten{
+	background:url('../images/text/meest_verkochte_producten.png');
+	margin:20px auto 0px auto;
+	width:242px;
+	height:20px;
+}
+
+#product_3{
+	background:url('../images/producten/active_light.png');
+	margin-top:2px;
+	float:left;
+	width:266px;
+	height:207px;
+}
+
+#product_4{
+	background:url('../images/meeste_producten.png');
+	margin-top:2px;
+	float:right;
+	width:266px;
+	height:207px;
+}
+
+
+#contact{
+	margin-top:24px;
+	background:url('../images/contact.png');
+	float:right;
+	width:356px;
+	height:163px;
+}
+
+#contact_text{
+	background:url('../images/text/contact_text.png');
+	margin:25px auto 20px auto;
+	width:115px;
+	height:27px;
+}
+
+#email_tekst{
+	background:url('../images/text/email_text.png');
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:157px;
+	height:12px;
+}
+
+#break_contact{
+	background:url('../images/break.png');
+	margin:8px auto 0px auto;
+	width:257px;
+	height:5px;
+}
+
+#klantenservice_tekst{
+	color:#efefef;
+	font-size:14px;
+	margin:10px auto 0px auto;
+	text-align:center;
+	width:250px;
+	height:30px;
+}
+
+#button_klantenservice{
+	background:url('../images/buttons/contactformulier.png');
+	margin:9px auto 0px auto;
+	height:31px;
+	width:178px;
+}
+
+#proces_winkelmandje{
+	margin-top:15px;
+	background:url('../images/procedure_bg.png');
+	width:512px;
+	height:25px;
+}
+
+#winkelmandje_proces{
+	width:135px;
+	height:38px;
+}
+	
+footer{
+	width:941px;
+	clear:both;
+	margin-top:20px;
+	float:left;
+}
+
+#sidebar{
+	float:right;
+	height:auto;
+}
+
+#copyright{
+	color:#787878;
+	font-size:12px;
+}
+#bord
+{
+          border:  
+          solid #003d86; border-left: 
+          solid 0.5px gray; 
+          padding: 8px;
+          border-radius:4px;
+          background:url(../images/interest.png);
+          border-right:  solid 0.9px gray;
+}
